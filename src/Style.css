@@ -1,0 +1,11 @@
+.NoScrollBar{
+    overflow-y: auto;
+    
+    /* hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.NoScrollBar::-webkit-scrollbar{
+    display: none;
+}
